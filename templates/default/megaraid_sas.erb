@@ -1,0 +1,7 @@
+## create by chef for <%= node['hostname'] %>
+
+MAILTO=<%= @mailto %>   # Where to report problems
+PERIOD=<%= @period %>    # Seconds between each check    (default 10 minutes)
+REMIND=<%= @remind %>   # Seconds between each reminder (default 2 hours)
+RUN_DAEMON=<%= @daemonize %>
+
