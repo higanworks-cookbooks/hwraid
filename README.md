@@ -1,10 +1,15 @@
 # hwraid cookbook
+[![Build Status](https://secure.travis-ci.org/higanworks-cookbooks/hwraid.png?branch=master)](https://travis-ci.org/higanworks-cookbooks/hwraid)
 
 Add repository hwraid [http://hwraid.le-vert.net/](http://hwraid.le-vert.net/)
 
 Install packeage and setup monitoring daemon.
 
 - megaraid_sas
+
+## tested by
+
+- foodcritic with travis ci.
 
 # Requirements
 
