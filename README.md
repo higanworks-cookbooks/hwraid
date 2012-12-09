@@ -3,7 +3,7 @@
 
 Add repository hwraid [http://hwraid.le-vert.net/](http://hwraid.le-vert.net/)
 
-Install packeage and setup monitoring daemon.
+Install packeage and setup monitoring daemon. 
 
 - megaraid_sas
 
@@ -31,7 +31,9 @@ default['hwraid']['megacli_sas']['configs'] = {
 # Recipes
 
 - default: add repository hwraid
-- megaraid_sas: install megacli and setup megaclisas-status as daemon.
+- megaraid_sas
+  - install megacli and setup megaclisas-status as daemon.
+  - regist scheduled consistency check per month to crontab.
 
 
 # Author
