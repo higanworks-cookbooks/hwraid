@@ -15,6 +15,9 @@ Install packeage and setup monitoring daemon.
 
 - cookbook[apt]
 
+## For hwraid::nagios
+
+- cookbook[nagios]
 
 # Attributes
 
@@ -34,8 +37,11 @@ default['hwraid']['megacli_sas']['configs'] = {
 - megaraid_sas
   - install megacli and setup megaclisas-status as daemon.
   - regist scheduled consistency check per month to crontab.
+- nagios
+  - Use nagios_nrpecheck LWRP to add Nagios checking
 
 
 # Author
 
 Author:: HiganWorks LLC (<sawanoboriyu@higanworks.com>)
+Author:: Leo Unbekandt (<leo@unbekandt.eu>)
