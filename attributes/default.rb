@@ -13,3 +13,4 @@ default['hwraid']['megacli_sas']['cc_minute'] = "11"
 default['hwraid']['megacli_sas']['cc_day'] = (node['ipaddress'].split(".")[3].to_i % 30).to_s
 default['hwraid']['megacli_sas']['cc_command'] = "/usr/sbin/megacli -LDCC -Start -LALL -aALL"
 
+default['hwraid']['nagios']['megasasctl_path'] = "/usr/sbin/megasasctl"
