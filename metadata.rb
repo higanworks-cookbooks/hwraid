@@ -10,8 +10,8 @@ recipe           "hwraid", "Add hwraid repo from le-vert.ne"
 recipe           "hwraid::megaraid_sas", "Install and configure megaclisas-statusd, add cron task"
 recipe           "hwraid::nagios", "add nagios plugin using nrpecheck LWR"
 
-support          "debian"
-support          "ubuntu"
+supports         "debian"
+supports         "ubuntu"
 
 depends          "apt"
 depends          "nagios"
