@@ -1,6 +1,10 @@
 ChangeLog
 ----
 
+### v0.3.2
+
+- remove self depends.
+
 ### v0.3.1
 
 - Update metadat HT: @Souloua
